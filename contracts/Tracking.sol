@@ -5,7 +5,7 @@ contract Tracking {
     enum ShipmentStatus { PENDING, IN_TRANSIT, DELIVERED }
 
     struct Shipment {
-        address sender;
+        address sender; 
         address receiver;
         uint256 pickupTime;
         uint256 deliveryTime;
